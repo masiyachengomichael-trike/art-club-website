@@ -7,8 +7,9 @@ minute.
 
 ## 1. Create the database
 
-In phpMyAdmin, import `database/schema.sql`. The script creates the local
-`artclub` database and its `members` and `otp_challenges` tables.
+Create an `artclub` database in phpMyAdmin, select it, and import
+`database/schema.sql`. The script creates the `members` and `otp_challenges`
+tables in the selected database.
 
 ## 2. Configure database and hosting SMTP
 

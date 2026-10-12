@@ -2,9 +2,11 @@
 return [
     "database" => [
         "host" => "127.0.0.1",
+        "port" => 3306,
         "name" => "artclub",
         "username" => "root",
         "password" => "enter-your-database-password",
+        "ssl_ca" => "",
     ],
     "smtp" => [
         "host" => "mail.your-host.example",
