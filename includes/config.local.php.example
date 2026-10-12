@@ -1,0 +1,18 @@
+<?php
+return [
+    "database" => [
+        "host" => "127.0.0.1",
+        "name" => "artclub",
+        "username" => "root",
+        "password" => "enter-your-database-password",
+    ],
+    "smtp" => [
+        "host" => "mail.your-host.example",
+        "port" => 587,
+        "encryption" => "tls",
+        "username" => "your-mailbox@your-domain.example",
+        "password" => "",
+        "from_email" => "your-mailbox@your-domain.example",
+        "from_name" => "ARTCLUB",
+    ],
+];
